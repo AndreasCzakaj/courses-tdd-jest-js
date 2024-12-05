@@ -1,0 +1,23 @@
+{
+  "name": "toom",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "test": "vitest run --coverage",
+    "wtest": "vitest watch",
+    "jest": "jest --coverage",
+    "wjest": "jest --watchAll"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@types/jest": "^29.5.14",
+    "@vitest/coverage-v8": "^2.0.5",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "vitest": "^2.0.5"
+  }
+}
