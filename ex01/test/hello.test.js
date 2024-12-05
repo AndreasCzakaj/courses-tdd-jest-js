@@ -9,23 +9,23 @@ describe("covered test", () => {
 
   it.skip("should yield the answer", () => {
     // given
-    input = "What's the meaning of it all?"
+    const input = "What's the meaning of it all?"
 
     // when
-    actual = getValue(input)
+    const actual = getValue(input)
 
     // then
-    expected = 42
+    const expected = 42
     expect(actual).toEqual(expected)
     expect(actual).toBe(expected)
   })
 
-  it.skip("should match the list items", () => {
+  it("should match the list items", () => {
     // when
-    actual = getList()
+    const actual = getList()
 
     // then
-    expected = ["a", "b", "c"]
+    const expected = ["a", "b", "c"]
     expect(actual).toEqual(expected)
     expect(actual).toBe(expected)
   })
