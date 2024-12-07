@@ -24,8 +24,8 @@ export class DaoError extends Error {
     return this.repo[identifier]
   }
 
-  async save(identifier, object) {
-    this.repo[identifier] = object
-    return object
-  }
+  //async save(identifier, object) {
+  //  this.repo[identifier] = object
+  //  return object
+  //}
 } */

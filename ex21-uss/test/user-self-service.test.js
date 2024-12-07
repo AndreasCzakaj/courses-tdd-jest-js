@@ -30,14 +30,14 @@ describe("user-self-service.test", () => {
       "If I don't pass the right password then there should be the same user error."
     )
 
+    test.todo(
+      "If I pass valid and existing credentials then I get an instance of UserSession."
+    )
+
     test.todo("If the database does not work then I should get a server error.")
 
     test.todo(
       "If the database does not work then I should get a server error - variant using mocks"
-    )
-
-    test.todo(
-      "If I pass valid and existing credentials then I get an instance of UserSession."
     )
   })
 
