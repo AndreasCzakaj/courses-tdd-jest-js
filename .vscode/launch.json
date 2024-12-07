@@ -28,12 +28,26 @@
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
             "disableOptimisticBPs": true
-        }
+        },
         {
             "type": "node",
             "runtimeVersion": "20",
             "name": "debug ex11-fibonacci",
             "cwd": "${workspaceFolder}/ex11-fibonacci",
+            "request": "launch",
+            "program": "./node_modules/.bin/vitest",
+            "args": [
+                "run"
+            ],
+            "console": "integratedTerminal",
+            "internalConsoleOptions": "neverOpen",
+            "disableOptimisticBPs": true
+        },
+        {
+            "type": "node",
+            "runtimeVersion": "20",
+            "name": "debug ex21-uss",
+            "cwd": "${workspaceFolder}/ex21-uss",
             "request": "launch",
             "program": "./node_modules/.bin/vitest",
             "args": [
