@@ -3,6 +3,10 @@ describe("user-self-service.test", () => {
 
   beforeEach(() => {})
 
+  test("init", () => {
+    expect(service).not.toBe(undefined)
+  })
+
   describe("Validation: pure function tests to validate atomic inputs", () => {
     test.todo("Validate username should fail: $reason")
 

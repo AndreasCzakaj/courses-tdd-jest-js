@@ -3,9 +3,9 @@ export class UserDao {
     throw new Error("Impl me")
   }
 
-  async save(identifier, object) {
+  /* async save(identifier, object) {
     throw new Error("Impl me")
-  }
+  } */
 }
 
 export class DaoError extends Error {
