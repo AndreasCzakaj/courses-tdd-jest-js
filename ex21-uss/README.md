@@ -1,10 +1,22 @@
-# Maybe needed: prepare NVM
-`nvm use`
+# Initially, after cloning
 
-# Run tests once, with coverage
+``` Bash
+nvm use     # optional, if you use nvm
+npm i
+```
 
-`npm run test`
+# Daily use
 
-# Run tests continuously ("w" for "watch"), TDD style
+2 ways to use it (Jest not supported here because of ESM issue):
 
-`npm run wtest`
+## Run vitest tests once, with coverage
+
+``` Bash
+npm run test
+```
+
+## Run vitest tests continuously ("w" for "watch mode"), TDD style
+
+``` Bash
+npm run wtest
+```
