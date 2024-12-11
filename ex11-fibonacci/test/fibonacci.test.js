@@ -26,7 +26,7 @@ export const fibonacciTest = (name, implementation) =>
       ${6}         | ${8}         | ${" 6 => 8"}
       ${7}         | ${13}        | ${" 7 => 13"}
       ${19}        | ${4_181}     | ${" 19 => 4_181"}
-      ${30}        | ${832_040}   | ${" 46 => 832_040"}
+      ${30}        | ${832_040}   | ${" 30 => 832_040"}
     `)
 
     it.todo("should throw an Error for null index")

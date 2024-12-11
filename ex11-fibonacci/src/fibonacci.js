@@ -1,5 +1,3 @@
-class Fibonacci {
+export class Fibonacci {
   calc() {}
 }
-
-export { Fibonacci }
