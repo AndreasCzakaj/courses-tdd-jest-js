@@ -9,6 +9,7 @@ describe("arrays test", () => {
     const expected = ["a", "b", "c"]
     expect(actual).toEqual(expected)
     expect(actual.length).toEqual(3)
+    expect(actual).toHaveLength(3)
   })
 
   it("test array with extended matchers", () => {
