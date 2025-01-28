@@ -14,4 +14,6 @@ describe("objects.test", () => {
   it.todo(
     "should verify that person at index 23 contains values '55.247.214.105' and 'Rawcliffe'"
   )
+
+  it.todo("should fail with error when calling function oops")
 })
