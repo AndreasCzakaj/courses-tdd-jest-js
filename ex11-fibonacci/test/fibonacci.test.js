@@ -1,6 +1,6 @@
 import { Fibonacci } from "../src/fibonacci"
 
-export const fibonacciTest = (name, implementation) =>
+export const fibonacciTest = (name, fibonacci) =>
   describe(`fibonacci test using implementation ${name}"`, () => {
     it.todo("should throw an Error for undefined index")
 
