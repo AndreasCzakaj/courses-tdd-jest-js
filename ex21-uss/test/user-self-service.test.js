@@ -8,15 +8,15 @@ describe("user-self-service.test", () => {
   })
 
   describe("Validation: pure function tests to validate atomic inputs", () => {
-    test.todo("Validate username should fail: $reason")
+    test.todo("Validate username should fail")
 
-    test.todo("Validate username should pass: $reason")
+    test.todo("Validate username should pass")
 
-    test.todo("Validate password should fail: $reason")
+    test.todo("Validate password should fail")
 
-    test.todo("Validate credentials should fail: $reason")
+    test.todo("Validate credentials should fail")
 
-    test.todo("Validate credentials should pass: $reason")
+    test.todo("Validate credentials should pass")
   })
 
   describe("As a User, I want to login using my username and password, thus getting a UserSession object", () => {
