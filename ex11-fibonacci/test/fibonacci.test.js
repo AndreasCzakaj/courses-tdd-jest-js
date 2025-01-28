@@ -4,7 +4,11 @@ export const fibonacciTest = (name, fibonacci) =>
   describe(`fibonacci test using implementation ${name}"`, () => {
     it.todo("should throw an Error for undefined index")
 
+    it.todo("should throw an Error for null index")
+
     it.todo("should throw an Error for negative index")
+
+    it.todo("should throw an Error for index > 46")
 
     it.todo("should yield 0 for 0")
 
@@ -28,9 +32,6 @@ export const fibonacciTest = (name, fibonacci) =>
       ${19}        | ${4_181}     | ${" 19 => 4_181"}
       ${30}        | ${832_040}   | ${" 30 => 832_040"}
     `)
-
-    it.todo("should throw an Error for null index")
-    it.todo("should throw an Error for index > 0")
 
     it.skip("should show which impl is slow af", () => {
       expect(fibonacci.calc(46)).toBe(1_836_311_903)
