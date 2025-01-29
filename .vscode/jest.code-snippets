@@ -6,7 +6,7 @@
             "",
             "describe('$TM_FILENAME_BASE', () => {",
             "",
-            "  let service",
+            "   let service",
             "",
 			"	beforeEach(() => {",
 			"	})",

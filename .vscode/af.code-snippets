@@ -1,0 +1,12 @@
+{
+	"Anonymous Function": {
+		"scope": "javascript,typescript",
+		"prefix": "af",
+		"body": [
+			"() => {",
+			"	$code",
+			"}",
+		],
+		"description": "Create and anonymous function"
+	}
+}

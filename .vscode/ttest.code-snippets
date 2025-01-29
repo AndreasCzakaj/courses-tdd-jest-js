@@ -1,0 +1,19 @@
+{
+	"Simple Single Jest Test Lambda": {
+		"scope": "javascript,typescript",
+		"prefix": "ttest",
+		"body": [
+			"async () => {",
+			"	// given",
+			"	const given = undefined;",
+			"	",
+			"	// when",
+			"	const actual = await service(given);",
+			"	",
+			"	// then",
+			"	expect(actual).toBe(undefined);",
+			"}",
+		],
+		"description": "Create skeleton of a simple single jest test lambda"
+	}
+}
