@@ -20,3 +20,9 @@ npm run test
 ``` Bash
 npm run wtest
 ```
+
+## Run all tests for CI/CD
+
+``` Bash
+npm run citest
+```

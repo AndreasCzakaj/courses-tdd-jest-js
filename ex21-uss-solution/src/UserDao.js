@@ -21,7 +21,7 @@ export class UserDaoDictionaryImpl extends UserDao {
   }
 
   async get(identifier) {
-    return this.repo[identifier]
+    return this.repo[identifier] || null
   }
 
   async save(identifier, object) {

@@ -1,25 +1,14 @@
-import { vi as jest } from "vitest"
-
 import {
-  UserSelfService,
   UserSession,
   validatePassword,
   validateCredentials,
-  Credentials,
   validateUsername,
   UserError,
   ServerError,
 } from "../src/user-self-service"
 
-import {
-  PersonOdataProviderDictionaryImpl,
-  PersonOdataProviderThrowingImpl,
-} from "../src/PersonOdataProvider"
-import {
-  UserDao,
-  UserDaoDictionaryImpl,
-  UserDaoThrowingImpl,
-} from "../src/UserDao"
+import { PersonOdataProviderThrowingImpl } from "../src/PersonOdataProvider"
+import { UserDaoThrowingImpl } from "../src/UserDao"
 import { ValidationError } from "../src/validation"
 import {
   createUserSelfServiceWithWorkingDeps,
